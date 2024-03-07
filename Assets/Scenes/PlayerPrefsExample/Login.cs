@@ -32,6 +32,8 @@ public class Login : MonoBehaviour
         Message2.SetActive(true);
         Message2.GetComponent<Text>().text = message;
         Invoke("SetMessage", 1.0f);
+
+
     }
 
     public void SignUpInputfield()
